@@ -126,7 +126,7 @@ class _AgregarNegocioPageState extends State<AgregarNegocioPage> {
           _logoImage = File(result.files.single.path!);
         });
       } else {
-        print('No se seleccionó ninguna imagen.');
+        print('No se seleccionó ninguna imagen Pruebas.');
       }
     } catch (e) {
       print('Error al seleccionar la imagen: $e');
