@@ -28,7 +28,7 @@ class GestionarTipoCocinaPage extends StatelessWidget {
           if (tipos.isEmpty) {
             return const Center(
               child: Text(
-                "No hay tipos de cocina registrados.",
+                "No hay tipos de cocinas registrados.",
                 style: TextStyle(fontSize: 18, color: Colors.grey),
               ),
             );
